@@ -1,0 +1,391 @@
+
+@font-face {
+  font-family: "Louis George Cafe";
+  src: url("../fonts/Louis\ George\ Cafe.ttf")
+}
+@font-face {
+  font-family: "Louis George Cafe Bold";
+  src: url("../fonts/Louis\ George\ Cafe\ Bold.ttf")
+}
+
+h1 {
+  font-family: "Louis George Cafe";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 49px;
+  style: normal;
+}
+
+h2 {
+  font-family: "Louis George Cafe";
+  font-weight: 700;
+  font-size: 24px;
+  padding: 0 0 32px 0;
+  text-align: start;
+}
+
+h3 {
+  font-family: "Louis George Cafe Bold";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24,5px;
+  letter-spacing: 2px;
+  padding: 0 0 32px 0;
+}
+
+h4 {
+  font-family: "Louis George Cafe Bold";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  padding: 0 0 32px 0;
+}
+
+.logo-laura-searle {
+  position: fixed;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding-left: 0px;
+  margin-top: 93px;
+  display: flex;
+  margin-left: -236px;
+  border-radius: 0%;
+  transform: rotate(-90deg)
+}
+
+p {
+  font-family: "Louis George Cafe Bold";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  width: 100%;
+}
+
+.article-description {
+  font-family: "Louis George Cafe Bold";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #DCDCDC;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%
+}
+
+nav {
+  padding: 56px 592px 0 0;
+  margin-bottom: 32px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.logo-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  margin-left: 236px;
+}
+
+.menu-option {
+  font-family: "Louis George Cafe Bold";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24,5px;
+  letter-spacing: 2px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.linea {
+  position: fixed;
+  width: 2977px;
+  line-height: fill-available;
+  left: 128px;
+  top: 0px;
+  
+  border: 1px solid rgba(198, 197, 196, 0.8);
+  transform: rotate(90deg);
+}
+
+.iphone {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: right;
+  margin-left: 231px;
+}
+.home-description {
+  padding: 64px 0 0 0;
+  width: 499px;
+height: 130px;
+left: 828px;
+top: 821px;
+}
+
+.statement-myself {  
+  width: 453px;
+height: 331px;
+left: 236px;
+top: 426px;
+}
+
+.myself {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 221px;
+  margin-left: 236px;
+}
+
+.home {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.logos-social {
+  position: fixed;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+position: fixed;
+width: 32px;
+height: 248px;
+left: 54px;
+top: 384px;
+ 
+}
+
+.scroll-down {
+  position: absolute;
+width: 98px;
+height: 98px;
+left: 395px;
+top: 650px;
+}
+
+main{
+  margin-left: 236px;
+}
+
+.portfolio-works {
+  padding: 50px 0 0px 0;
+}
+
+.portfolio-works-container {
+  padding: 208px 0 32px 0;
+}
+
+h5 {
+  text-decoration-line: underline;
+  color: #FF5C00;
+  font-family: "Louis George Cafe Bold";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24,5px;
+  margin-bottom: 40px;
+}
+
+.container-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 104px 0 0;
+  width: 355px;
+height: 599px;
+}
+
+.article-div-container {
+  width: 355px;
+height: 599px;
+}
+.container-article-center {
+  margin: 96px 0;
+}
+
+.image {
+  width: 568px;
+  height: 368px;
+  background-color: #C4C4C4;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.article-description {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 355px;
+}
+
+.article-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 20px;
+  margin-bottom: 22px;
+}
+.core-section-3 {
+  position: absolute;
+  width: 1040px;
+  height: 545px;
+  left: 186px;
+  top: 2023px;
+  padding-top: 80px;
+}
+.core-article1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+width: 356px;
+height: 523px;
+left: 60px;
+
+}
+
+.core-article2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+position: absolute;
+width: 228px;
+height: 487px;
+left: 514px;
+
+}
+
+.core-article3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+position: absolute;
+width: 240px;
+height: 516px;
+left: 860px;
+
+}
+
+.litost-2 {
+
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+}
+.container-services {
+  display: flex;
+  flex-direction: column;
+}
+.number {
+  padding: 0 8px 32px 0;
+}
+
+footer {
+  padding: 103px 236px 0 236px;
+  background-color: #042126;
+  position: absolute;
+  max-width: 1440px;
+  width: 80%;
+  bottom: 0;
+  height: 300px;
+  left: 0px;
+  top: 2901px;
+}
+
+.h2-footer {
+  color: #DCDCDC;
+}
+.h2-footer-t {
+  color: #DCDCDC;
+  text-align: right;
+}
+
+.h3-footer {
+  color: #DCDCDC;
+}
+
+.footer_inner_left{
+  width: 50%;
+  Float: left;
+  display:inline;
+  }
+  
+  .footer_inner_right{
+  width: 50%;
+  Float: right;
+  display:inline;
+  text-align: end;
+  }
+
+  .icons-footer {
+    padding: 0 0 0 48px;
+  }
+  .icons-footer:hover{
+    opacity:0.5;
+    }
+
+  li:hover {
+    color: #FF5C00;
+  }
+
+  
+  .icono-sm:hover{
+    opacity:0.5;
+    }
+
+  .menu-contact {
+    text-decoration: none;
+  }
+
+  .menu-projects {
+    text-decoration: none;
+  }
+
+  a:link, a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+  li {
+    text-decoration: none;
+  }
+  
+  .h2-section3:hover {
+    color: #FF5C00;
+  }
+  .p-section3:hover {
+    color: #FF5C00;
+  }
+  .article-div-container h5 a {
+    color: #FF5C00;
+  }
+
+  
